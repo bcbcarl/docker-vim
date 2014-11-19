@@ -1,6 +1,7 @@
 # Dockerized Vim - dvim
 
 * [`7.4`, `latest` (7.4/Dockerfile)](https://github.com/bcbcarl/docker-vim/blob/master/7.4/Dockerfile)
+* [`7.3` (7.3/Dockerfile)](https://github.com/bcbcarl/docker-vim/blob/master/7.3/Dockerfile)
 
 Docker container for Vim.
 
