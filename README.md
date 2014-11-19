@@ -10,6 +10,7 @@ Assuming you have Docker installed, copy `dvim` to `/usr/local/bin/dvim`.
 
 ```bash
 docker pull bcbcarl/vim
+git clone https://github.com/bcbcarl/docker-vim.git && cd docker-vim
 chmod +x dvim
 sudo cp dvim /usr/local/bin/dvim
 ```
