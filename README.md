@@ -1,4 +1,4 @@
-# Dockerized Vim
+# Dockerized Vim - dvim
 
 * [`7.4`, `latest` (7.4/Dockerfile)](https://github.com/bcbcarl/docker-vim/blob/master/7.4/Dockerfile)
 
