@@ -1,8 +1,19 @@
-# Usage
+# Dockerized Vim
+
+Docker container for Vim.
+
+## Quickstart
+
+Assuming you have docker installed, add this to your `~/.bash_profile`.
+
 ```bash
-docker pull bcbcarl/vim
 alias vim="docker run --rm -it -v \"$PWD\":/workspace bcbcarl/vim"
 ```
 
-# License
-MIT license
+Happy Vimming!
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Carl X. Su
