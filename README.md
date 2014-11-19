@@ -6,10 +6,17 @@ Docker container for Vim.
 
 ## Quickstart
 
-Assuming you have docker installed, add this to your `~/.bash_profile`.
+Assuming you have Docker installed, copy `dvim` to `/usr/local/bin/dvim`.
 
 ```bash
-alias vim='docker run --rm -it -u $(id -u) -e "HOME=$HOME" -v "$HOME:$HOME" -v "/etc/passwd:/etc/passwd:ro" -v "/etc/shadow:/etc/shadow:ro" -v "/etc/group:/etc/group:ro" -v "/etc/sudoers.d:/etc/sudoers.d:ro" -v "$PWD:$PWD" -w "$PWD" bcbcarl/vim'
+chmod +x dvim
+sudo cp dvim /usr/local/bin/dvim
+```
+
+For your convenience, you can also replacing `vim` with `dvim`.
+
+```bash
+alias vim=dvim
 ```
 
 Happy Vimming!
