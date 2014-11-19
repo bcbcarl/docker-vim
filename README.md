@@ -1,6 +1,6 @@
 # Usage
 ```bash
-docker build -t bcbcarl/vim .
+docker pull bcbcarl/vim
 alias vim="docker run --rm -it -v \"$PWD\":/workspace bcbcarl/vim"
 ```
 
