@@ -9,6 +9,7 @@ Docker container for Vim.
 Assuming you have Docker installed, copy `dvim` to `/usr/local/bin/dvim`.
 
 ```bash
+docker pull bcbcarl/vim
 chmod +x dvim
 sudo cp dvim /usr/local/bin/dvim
 ```
