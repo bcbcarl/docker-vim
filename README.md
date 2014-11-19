@@ -1,5 +1,7 @@
 # Dockerized Vim
 
+* [`7.4`, `latest` (7.4/Dockerfile)](https://github.com/bcbcarl/docker-vim/blob/master/7.4/Dockerfile)
+
 Docker container for Vim.
 
 ## Quickstart
