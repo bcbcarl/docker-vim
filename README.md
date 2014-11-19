@@ -7,7 +7,7 @@ Docker container for Vim.
 Assuming you have docker installed, add this to your `~/.bash_profile`.
 
 ```bash
-alias vim="docker run --rm -it -v \"$PWD\":/workspace bcbcarl/vim"
+alias vim="docker run --rm -it -v \"$PWD:/workspace\" bcbcarl/vim"
 ```
 
 Happy Vimming!
