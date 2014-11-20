@@ -11,7 +11,7 @@ Assuming you have Docker installed, copy `dvim` to `/usr/local/bin/dvim`.
 
 ```bash
 docker pull bcbcarl/vim
-sudo curl -L https://raw.githubusercontent.com/bcbcarl/docker-vim/master/dvim -o /usr/local/bin/dvim
+sudo curl -L https://raw.githubusercontent.com/bcbcarl/docker-vim/master/bin/dvim -o /usr/local/bin/dvim
 sudo chmod +x /usr/local/bin/dvim
 ```
 
