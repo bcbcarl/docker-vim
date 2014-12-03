@@ -11,14 +11,10 @@ Assuming you have Docker installed, copy `dvim` to `/usr/local/bin/dvim`.
 
 ```bash
 docker pull bcbcarl/vim
-sudo curl -L https://raw.githubusercontent.com/bcbcarl/docker-vim/master/bin/dvim -o /usr/local/bin/dvim
-sudo chmod +x /usr/local/bin/dvim
-```
-
-For your convenience, you can also replacing `vim` with `dvim`.
-
-```bash
-alias vim=dvim
+mkdir -p $HOME/.bin
+curl -L https://raw.githubusercontent.com/bcbcarl/docker-vim/master/bin/dvim -o $HOME/.bin/dvim
+chmod +x $HOME/.bin/dvim
+alias vim=$HOME/.bin/dvim
 ```
 
 Happy Vimming!
