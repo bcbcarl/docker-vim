@@ -23,4 +23,4 @@ Happy Vimming!
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Carl X. Su
+Copyright (c) 2014-2016 Carl X. Su
